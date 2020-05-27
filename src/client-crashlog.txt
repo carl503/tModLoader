@@ -1,0 +1,42 @@
+5/27/2020 5:44:20 PM
+System.TypeInitializationException: The type initializer for 'System.Console' threw an exception. ---> System.TypeInitializationException: The type initializer for 'System.ConsoleDriver' threw an exception. ---> System.Exception: Magic number is wrong: 542
+  at System.TermInfoReader.ReadHeader (Byte[] buffer, Int32& position) [0x0002b] in mscorlib.dll 
+  at System.TermInfoReader..ctor (String term, String filename) [0x00065] in mscorlib.dll 
+  at System.TermInfoDriver..ctor (String term) [0x00058] in mscorlib.dll 
+  at System.ConsoleDriver.CreateTermInfoDriver (String term) [0x00000] in mscorlib.dll 
+  at System.ConsoleDriver..cctor () [0x00062] in mscorlib.dll 
+   --- End of inner exception stack trace ---
+  at System.Console.SetupStreams (Encoding inputEncoding, Encoding outputEncoding) [0x0000a] in mscorlib.dll 
+  at System.Console..cctor () [0x000a8] in mscorlib.dll 
+   --- End of inner exception stack trace ---
+  at Terraria.Main.DedServ () [0x0005b] in tModLoaderServer.exe 
+  at Terraria.Program.LaunchGame_ () [0x00082] in tModLoaderServer.exe 
+
+5/27/2020 5:46:51 PM
+System.TypeInitializationException: The type initializer for 'System.Console' threw an exception. ---> System.TypeInitializationException: The type initializer for 'System.ConsoleDriver' threw an exception. ---> System.Exception: Magic number is wrong: 542
+  at System.TermInfoReader.ReadHeader (Byte[] buffer, Int32& position) [0x0002b] in mscorlib.dll 
+  at System.TermInfoReader..ctor (String term, String filename) [0x00065] in mscorlib.dll 
+  at System.TermInfoDriver..ctor (String term) [0x00058] in mscorlib.dll 
+  at System.ConsoleDriver.CreateTermInfoDriver (String term) [0x00000] in mscorlib.dll 
+  at System.ConsoleDriver..cctor () [0x00062] in mscorlib.dll 
+   --- End of inner exception stack trace ---
+  at System.Console.SetupStreams (Encoding inputEncoding, Encoding outputEncoding) [0x0000a] in mscorlib.dll 
+  at System.Console..cctor () [0x000a8] in mscorlib.dll 
+   --- End of inner exception stack trace ---
+  at Terraria.Main.DedServ () [0x0005b] in tModLoaderServer.exe 
+  at Terraria.Program.LaunchGame_ () [0x00082] in tModLoaderServer.exe 
+
+5/27/2020 5:48:34 PM
+System.TypeInitializationException: The type initializer for 'System.Console' threw an exception. ---> System.TypeInitializationException: The type initializer for 'System.ConsoleDriver' threw an exception. ---> System.Exception: Magic number is wrong: 542
+  at System.TermInfoReader.ReadHeader (Byte[] buffer, Int32& position) [0x0002b] in mscorlib.dll 
+  at System.TermInfoReader..ctor (String term, String filename) [0x00065] in mscorlib.dll 
+  at System.TermInfoDriver..ctor (String term) [0x00058] in mscorlib.dll 
+  at System.ConsoleDriver.CreateTermInfoDriver (String term) [0x00000] in mscorlib.dll 
+  at System.ConsoleDriver..cctor () [0x00062] in mscorlib.dll 
+   --- End of inner exception stack trace ---
+  at System.Console.SetupStreams (Encoding inputEncoding, Encoding outputEncoding) [0x0000a] in mscorlib.dll 
+  at System.Console..cctor () [0x000a8] in mscorlib.dll 
+   --- End of inner exception stack trace ---
+  at Terraria.Main.DedServ () [0x0005b] in tModLoaderServer.exe 
+  at Terraria.Program.LaunchGame_ () [0x00082] in tModLoaderServer.exe 
+
