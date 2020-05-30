@@ -1,3 +1,4 @@
 #!/bin/bash
+chmod +x tModLoaderServer* && \
 cp -u /tmodloader/serverconfig.txt "$CONFIG"/serverconfig.txt && \
-./tModLoaderServer -config "$CONFIG"/serverconfig.txt -pass "$PASSWORD" -autocreate "$MAPSIZE" -worldname "$WORLDNAME" -world /"$CONFIG"/ModLoader/Worlds/"$WORLDNAME".wld
+./tModLoaderServer -config "$CONFIG"/serverconfig.txt -pass "$PASSWORD" -autocreate "$MAPSIZE" -worldname "$WORLDNAME" -world /"$CONFIG"/ModLoader/Worlds/"$WORLDNAME".wld "$@"
